@@ -1,0 +1,46 @@
+/* Styl dla body */
+body {
+    background-color: black; /* Ciemne tło */
+    color: white;             /* Kolor tekstu */
+    font-family: Arial, sans-serif; /* Czcionka */
+    display: flex;            /* Flexbox do wyśrodkowania */
+    justify-content: center;  /* Wyśrodkowanie poziome */
+    align-items: center;      /* Wyśrodkowanie pionowe */
+    height: 100vh;            /* Wysokość 100% ekranu */
+    margin: 0;
+}
+
+/* Kontener, który będzie trzymał wszystkie elementy */
+.content {
+    text-align: center; /* Wyśrodkowanie tekstu w kontenerze */
+}
+
+/* Styl dla nagłówka h1 */
+h1 {
+    color: violet;            /* Kolor nagłówka */
+    margin-top: 0;
+}
+
+/* Styl dla paragrafu */
+p {
+    color: white;             /* Kolor tekstu */
+    margin-top: 20px;
+}
+
+/* Styl dla przycisku */
+.test1 {
+    background-color: violet; /* Kolor tła przycisku */
+    color: white;             /* Kolor tekstu przycisku */
+    border: none;             /* Brak obramowania */
+    padding: 15px 32px;       /* Padding przycisku */
+    font-size: 16px;          /* Rozmiar czcionki */
+    cursor: pointer;         /* Kursor zmienia się na rączkę */
+    border-radius: 5px;       /* Zaokrąglone rogi */
+    transition: background-color 0.7s; /* Płynna zmiana koloru tła */
+    margin-top: 20px;         /* Odstęp od tekstu */
+}
+
+/* Styl przycisku po najechaniu */
+.test1:hover {
+    background-color: blueviolet; /* Zmiana koloru tła po najechaniu */
+}
