@@ -12,6 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Obsługuje kliknięcie na przycisku
     button.addEventListener('click', () => {
-        window.location.href = "https://kodowankokocham.slack.com";
+        window.location.href = "https://youngfreelancers.slack.com";
     });
 });
