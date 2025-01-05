@@ -34,7 +34,7 @@ p {
     border: none;             /* Brak obramowania */
     padding: 15px 32px;       /* Padding przycisku */
     font-size: 16px;          /* Rozmiar czcionki */
-    cursor: pointer;         /* Kursor zmienia się na rączkę */
+    cursor: pointer;          /* Kursor zmienia się na rączkę */
     border-radius: 5px;       /* Zaokrąglone rogi */
     transition: background-color 0.7s; /* Płynna zmiana koloru tła */
     margin-top: 20px;         /* Odstęp od tekstu */
